@@ -1,0 +1,64 @@
+body {
+  background-color: $accent-white-color;
+  color: $primary-text-color;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media screen and (min-width: $min-mobile) {
+    width: $min-mobile;
+  }
+  @media screen and (min-width: $min-tablet) {
+    width: $min-tablet;
+  }
+  @media screen and (min-width: $min-desktop) {
+    width: $min-desktop;
+  }
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and(min-width: $min-mobile) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and(min-width: $min-tablet) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and(min-width: $min-desktop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.section.no-padding {
+  padding-top: 0;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
