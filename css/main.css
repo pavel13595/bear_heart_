@@ -454,6 +454,7 @@ img {
   transform: translate(-50%, -50%);
   height: 160px;
   overflow: hidden;
+  min-width: 400px;
   font-family: 'Lato', sans-serif;
   font-size: 35px;
   line-height: 40px;
@@ -500,7 +501,6 @@ img {
 
 .content__container__list {
   margin-top: 0;
-  padding-left: 125px;
   text-align: left;
   list-style: none;
   -webkit-animation-name: change;
