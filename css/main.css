@@ -354,6 +354,7 @@ img {
   padding-bottom: 200px;
   background-size: 1600px;
   background-color: #2f303a;
+  position: relative;
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -445,6 +446,17 @@ img {
   display: flex;
 }
 
+.hero__gift {
+  margin: auto;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__block {
+  background: url(https://prytulafoundation.org/assets/intro-feature…36ea6036f4b228383ecc36457903ee4f8790375336dbe.png);
+}
+
 .header__container {
   display: flex;
   align-items: center;
@@ -453,7 +465,7 @@ img {
 @media screen and (max-width: 767px) {
   .header__container {
     justify-content: space-between;
-    height: 60px;
+    height: 75px;
   }
 }
 
@@ -608,7 +620,7 @@ img {
 }
 
 .footer {
-  background-color: #2f303a;
+  background: #001E61;
   padding-bottom: 60px;
   padding-top: 60px;
 }
