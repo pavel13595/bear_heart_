@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>WebStudio</title>
+    <title>Ведмеже серце</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -14,122 +14,113 @@
   </head>
 
   <body>
-    <!-- Шапка -->
-    <header class="header">
-      <div class="container header__container">
-        <a class="logo-part" href="/"><span class="logo-second-part">Web</span>Studio</a>
+   
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__container">
+      <a href="index.html"> <img
+        srcset="./images/logoN3.png"
+        src="./images/logoN3.png"
+        alt="Logo"
+        width="300"
+        height="50"
+      /></a>
+     
+      <!-- <a class="logo-part" href="/">Ведмеже серце</a> -->
 
-        <nav class="nav">
-          <ul class="nav__list list">
-            <li class="nav__item">
-              <a href="./index.html" class="nav__link">Студия</a>
-            </li>
-            <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link current">Портфолио</a>
-            </li>
-            <li class="nav__item"><a href="/" class="nav__link">Контакты</a></li>
-          </ul>
-        </nav>
-        <ul class="contacts list">
-          <li class="contacts__item">
-            <a href="mailto:info@devstudio.com" class="contacts__link">
-              <svg class="contacts__icon" width="16" height="12">
-                <use href="./images/icons.svg#envelope"></use>
-              </svg>
-              info@devstudio.com
-            </a>
+      <nav class="nav">
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a href="./index.html" class="nav__link current">Про нас</a>
           </li>
-
-          <li class="contacts__item">
-            <a href="tel:+380961111111" class="contacts__link">
-              <svg class="contacts__icon" width="10" height="16">
-                <use href="./images/icons.svg#smartphone"></use>
-              </svg>
-
-              +38 096 111 11 11
-            </a>
+          <li class="nav__item"><a href="#contacts" class="nav__link">Контакти</a></li>
+         
+          <li class="nav__item">
+            <a href="./help.html" class="nav__link">Кому допомогли</a>
           </li>
         </ul>
+        
+      </nav>
+      <ul class="contacts list">
+        <li class="contacts__item">
+          <a href="mailto:vedmegeserdse@gmail.com" class="contacts__link">
+            <svg class="contacts__icon" width="16" height="12">
+              <use href="./images/icons.svg#envelope"></use>
+            </svg>
+            vedmegeserdse@gmail.com
+          </a>
+        </li>
+
+        <li class="contacts__item">
+          <a href="tel:+380980194478" class="contacts__link">
+            <svg class="contacts__icon" width="10" height="16">
+              <use href="./images/icons.svg#smartphone"></use>
+            </svg>
+
+            +380980194478
+          </a>
+        </li>
+      </ul>
+      <button
+        type="button"
+        class="menu-button js-open-menu"
+        aria-label="Переключатель мобильного меню"
+        aria-expanded="false"
+      >
+        <svg class="menu-button__icon" width="40" height="40">
+          <use class="menu-button__icon-menu" href="./images/icons.svg#menu"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu">
         <button
           type="button"
-          class="menu-button js-open-menu"
+          class="mobile-menu__button js-close-menu"
           aria-label="Переключатель мобильного меню"
-          aria-expanded="false"
         >
           <svg class="menu-button__icon" width="40" height="40">
-            <use class="menu-button__icon-menu" href="./images/icons.svg#menu"></use>
+            <use class="menu-button__icon-cross" href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <div class="mobile-menu">
-          <button
-            type="button"
-            class="mobile-menu__button js-close-menu"
-            aria-label="Переключатель мобильного меню"
-          >
-            <svg class="menu-button__icon" width="40" height="40">
-              <use class="menu-button__icon-cross" href="./images/icons.svg#close"></use>
-            </svg>
-          </button>
-          <ul class="mobile-nav__list">
-            <li class="mobile-nav__item">
-              <a href="./index.html" class="mobile-nav__link">Студия</a>
-            </li>
-            <li class="mobile-nav__item">
-              <a href="./portfolio.html" class="mobile-nav__link mobile-nav__link--current"
-                >Портфолио</a
-              >
-            </li>
-            <li class="mobile-nav__item"><a href="" class="mobile-nav__link">Контакты</a></li>
-          </ul>
-          <ul class="mobile-contacts">
-            <li class="mobile-contacts__item">
-              <a href="tel:+380961111111" class="mobile-contacts__tel">+38 096 111 11 11</a>
-            </li>
-            <li class="mobile-contacts__item">
-              <a href="mailto:info@devstudio.com" class="mobile-contacts__mail"
-                >info@devstudio.com</a
-              >
-            </li>
-          </ul>
-          <ul class="mobile-social">
-            <li class="mobile-social__item">
-              <a href="" class="mobile-social__link">Instagram <span class="stik">|</span></a>
-            </li>
-            <li class="mobile-social__item">
-              <a href="" class="mobile-social__link">Twitter <span class="stik">|</span></a>
-            </li>
-            <li class="mobile-social__item">
-              <a href="" class="mobile-social__link">Facebook <span class="stik">|</span></a>
-            </li>
-            <li class="mobile-social__item">
-              <a href="" class="mobile-social__link">Linkedin </a>
-            </li>
-          </ul>
-        </div>
+        <ul class="mobile-nav__list">
+          <li class="mobile-nav__item">
+            <a href="./index.html" class="mobile-nav__link mobile-nav__link--current">Студия</a>
+          </li>
+          
+          <li class="mobile-nav__item"><a href="" class="mobile-nav__link">Контакты</a></li>
+        </ul>
+        <ul class="mobile-contacts">
+          <li class="mobile-contacts__item">
+            <a href="tel:+380980194478" class="mobile-contacts__tel">+380980194478</a>
+          </li>
+          <li class="mobile-contacts__item">
+            <a href="mailto:vedmegeserdse@gmail.com" class="mobile-contacts__mail"
+              >vedmegeserdse@gmail.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-social">
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Instagram <span class="stik">|</span></a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Twitter <span class="stik">|</span></a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Facebook <span class="stik">|</span></a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Linkedin </a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </header>
     <main>
       <section class="section">
         <h1 class="portfolio-title">Портфолио</h1>
 
         <div class="container">
-          <ul class="filter list">
-            <li class="filter__item">
-              <button type="button" class="filter__button">Все</button>
-            </li>
-            <li class="filter__item">
-              <button type="button" class="filter__button">Веб-сайты</button>
-            </li>
-            <li class="filter__item">
-              <button type="button" class="filter__button">Приложения</button>
-            </li>
-            <li class="filter__item">
-              <button type="button" class="filter__button">Дизайн</button>
-            </li>
-            <li class="filter__item">
-              <button type="button" class="filter__button">Маркетинг</button>
-            </li>
-          </ul>
+         
           <ul class="portfolio__list list">
             <li class="portfolio__item">
               <a href="" class="portfolio__link">
@@ -355,20 +346,22 @@
     <footer class="footer">
       <div class="footer-container container">
         <div class="footer-box">
-          <div class="address-box">
-            <a href="/" class="footer-logo link"><span class="logo-second-part">Web</span>Studio</a>
-            <address class="address-box__address">г. Киев, пр-т Леси Украинки, 26</address>
+          <div class="address-box" id="contacts">
+            <a href="/" class="footer-logo link">Ведмеже серце</a>
+            <address class="address-box__address">Україна, 43020, Волинська обл., Луцький р-н, місто Луцьк,
+              вул. Рівненська, будинок 76а, офіс 442 </address>
             <ul class="footer-contacts list">
               <li class="footer-contacts__item">
-                <a href="mailto:info@devstudio.com" class="footer-contacts__link link"
-                  >info@devstudio.com
+                <a href="mailto:vedmegeserdse@gmail.com" class="footer-contacts__link link"
+                  >vedmegeserdse@gmail.com
                 </a>
               </li>
               <li class="footer-contacts__item">
-                <a href="tel:+380961111111" class="footer-contacts__link link">+38 096 111 11 11</a>
+                <a href="tel:+380980194478" class="footer-contacts__link link">+380980194478</a>
               </li>
             </ul>
           </div>
+          
           <div class="social">
             <h2 class="social__title">Присоединяйтесь</h2>
             <ul class="social__icon list">
@@ -403,8 +396,7 @@
             </ul>
           </div>
         </div>
-        <!-- Подвал форм -->
-        <form class="subscribe">
+        <!-- <form class="subscribe">
           <label class="subscribe__label">
             <span class="subscribe__text">Подпишитесь на рассылку</span>
             <input type="email" class="subscribe__input" name="subscribe" placeholder="E-mail" />
@@ -415,7 +407,7 @@
               <use href="./images/icons.svg#send"></use>
             </svg>
           </button>
-        </form>
+        </form> -->
       </div>
     </footer>
     <script src="./js/mobile-menu.js"></script>

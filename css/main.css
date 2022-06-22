@@ -1123,6 +1123,13 @@ img {
   padding: 0;
 }
 
+.test1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
 .prof {
   display: none;
   padding-top: 0;
