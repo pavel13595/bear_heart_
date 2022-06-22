@@ -1124,10 +1124,32 @@ img {
 }
 
 .test1 {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  max-width: 632px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  color: #fff;
+}
+
+.test2 {
+  padding: 64px 15px 86px 15px;
+  display: flex;
+  flex-direction: column;
+  background: #001E61;
+  background: rgba(0, 30, 97, 0.8);
+  border: 1px solid #373D4D;
+  border-bottom: 0;
+  backdrop-filter: blur(20px);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: auto;
+  align-items: center;
+}
+
+.test3 {
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 .prof {
